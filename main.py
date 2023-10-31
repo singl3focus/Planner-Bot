@@ -6,7 +6,7 @@ import time
 import requests
 import random
 
-bot = telebot.TeleBot('5812525194:AAHEfg_WfkIEp-Q6c3N2ZSy4qpFqtvbpi30')
+bot = telebot.TeleBot('YOUR_TOKEN')
 
 conn = sqlite3.connect('planner.sql')
 cursor = conn.cursor()
